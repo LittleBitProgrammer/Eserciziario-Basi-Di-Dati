@@ -48,8 +48,8 @@ Si disegni il modello concettuale del dominio descritto, utilizzando il formalis
 ### elenco specifiche-01.drawio
 E' dato uno schema relazionale:
 
-R1 (k1, A1)
-R2 (k2, A2)
-R3 (k1, k2, k3, A3)
+- R1 (k1, A1)
+- R2 (k2, A2)
+- R3 (k1, k2, k3, A3)
 
 Si disegni un possibile schema concettuale E/R corrispondente
