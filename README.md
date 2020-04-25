@@ -53,3 +53,31 @@ E' dato uno schema relazionale:
 - R3 (k1, k2, k3, A3)
 
 Si disegni un possibile schema concettuale E/R corrispondente
+
+## Esercizio 07
+### orari_lezioni_uni.drawio
+Si intende automatizzare la gestione degli orari delle lezioni in una facoltà universitaria.
+
+La facoltà prevede diversi corsi di laurea (ad esempio, per la facoltà di Ingegneria: corso di laurea
+in ingegneria meccanica, ecc.. ), e un certo numero di insegnamenti. 
+
+Ogni insegnamento è contraddistinto da un codice e un nome. 
+
+La maggior parte degli insegnamenti appartiene al piano di studi di più corsi di laurea ( ad esempio 
+l'insegnamento C15 Analisi matematica 1 appartiene tanto a ingegneria Elettronica quanto a Ingegneria 
+meccanica).
+
+Un dato insegnamento all'interno di un dato corso di Laurea prevede un insieme di lezioni, ciascuna 
+svolta in un certo orario e in una certa aula.
+ 
+Gli insegnamenti con molti studenti vengono suddivisi raggruppando alfabeticamente gli studenti;
+per un dato insegnamento all'interno di un dato corso di laurea, si possono pertanto avere più docenti
+(ad esempio, C15 Analisi Matematica I per Ingenieria Meccanica è suddiviso in due: 
+A-K e L-Z, per gli studenti con iniziale del cognome compresa rispettivamente tra A e K e tra L e Z.
+Il docente è Rossi per gli A-K, Bianchi per gli L-Z). 
+
+Le lezioni degli insegnamenti con pochi studenti vengono invece unificate per più corsi di Laurea (ad esempio:
+le lezioni di "complementi di Matematica" per i Meccanici e i Nucleari sono unificate, e vengono svolte
+dal prof. Verdi).
+
+Si disegni il modello concettuale del dominio descritto, utilizzando il formalismo E/R
