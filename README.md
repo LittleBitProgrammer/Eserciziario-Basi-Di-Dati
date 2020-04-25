@@ -81,3 +81,21 @@ le lezioni di "complementi di Matematica" per i Meccanici e i Nucleari sono unif
 dal prof. Verdi).
 
 Si disegni il modello concettuale del dominio descritto, utilizzando il formalismo E/R
+
+## Esercizio 08
+### museo.drawio
+Un museo si compone di diverse sezioni, ciascuna comprendente un certo numero di sale.
+
+Ogni sezione ha un orario di visita ed è custodita giornalmente da un solo custode, nel rispetto di un turno settimanale che resta
+invariato per tutto l'anno; il turno definisce per ciuscun custode la sezione di cui si deve occupare in ciascun giorno della
+settimana.
+
+Ciascuna sala comprende diverse opere d'arte; le opere d'arte si dividono in dipinti, sculture (a loro volta distinte in
+statue, bassorilievi e altorilievi), arazzi e ceramiche.
+
+Ogni opera ha un autore, ma di alcune non se ne conosce il nome.
+
+Ogni opera appartiene a un periodo storico (ad esempio Rinascimento, 800', ecc); alcuni autori appartengono 
+ad un movimento artistico (ad esempio Impressionismo, Puntinismo).
+
+Si disegni il modello concettuale del dominio descritto, utilizzando il formalismo E/R.
